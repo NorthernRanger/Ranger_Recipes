@@ -24,7 +24,7 @@
     "RequiredLiquid": [
       {
         "Liquid": "LIQUID_Broth",
-        "VolumeInLitres": 0.4
+        "VolumeInLitres": 0.2
       }
     ],
     "CraftedResult": "GEAR_UncookedWolfStew",

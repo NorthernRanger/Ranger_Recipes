@@ -47,7 +47,7 @@
     "EatingTime": 3,
     "EatingAudio": "Play_EatingStew",
     "EatingPackagedAudio": "",
-    "ThirstEffect": 20,
+    "ThirstEffect": 10,
     "FoodPoisoning": 0,
     "FoodPoisoningLowCondition": 5,
     "ParasiteRiskIncrements": [],
