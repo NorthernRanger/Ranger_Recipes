@@ -14,6 +14,11 @@ Planned features for now:
 - Different stews with herbs, plants or berries mixed in
 - Recipes other than stews
 
+## Requirements
+- ModComponent
+- ModSettings
+- Crating Revisions
+
 ## Installation
 1. Make sure you have installed [MelonLoader v0.6.6](https://github.com/HerpDerpinstine/MelonLoader/releases/latest/download/MelonLoader.Installer.exe).
 2. Download [ModComponent.dll](https://github.com/dommrogers/ModComponent/releases), [ModSettings.dll](https://github.com/DigitalzombieTLD/ModSettings/releases), [CraftingRevisions.dll](https://github.com/dommrogers/CraftingRevisions/releases).
