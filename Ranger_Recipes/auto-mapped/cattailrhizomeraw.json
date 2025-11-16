@@ -34,11 +34,11 @@
     "Cooking": true,
     "CookingMinutes": 30,
     "CookingUnitsRequired": 1,
-    "CookingWaterRequired": 1.0,
+    "CookingWaterRequired": 0.0,
     "CookingResult": "GEAR_CattailRhizomeCooked",
-    "BurntMinutes": 40,
+    "BurntMinutes": 20,
     "Type": "Grub",
-    "CookingAudio": "Play_BoilingLight",
-    "StartCookingAudio": "Play_PutInPotWaterBurdockPrepared"
+    "CookingAudio": "Play_CookPotato",
+    "StartCookingAudio": "Play_cookingPlacementPotato"
   }
 }
