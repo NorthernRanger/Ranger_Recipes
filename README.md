@@ -6,7 +6,7 @@ This is my attempt to bridge this gap.
 Current features include:  
 
 A collection of stews + their respective cooking recipes: Bear, Moose and Wolf.  
-Rabbit River Sallad: Made from cooked rabbit and cattail stalks.
+Rabbit River Sallad: Made from cooked rabbit and cattail stalks.  
 Cattail Rhizome: The root of a Cattail, edible when cooked.
 
 
