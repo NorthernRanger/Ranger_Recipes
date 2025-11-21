@@ -1,0 +1,27 @@
+{
+	"Name": "RabbitRiverSallad",
+	"RequiredGear": 
+	[
+		{
+			"Item": "GEAR_CattailStalk",
+			"Count": 2
+		},
+		{
+			"Item": "GEAR_CookedMeatRabbit",
+			"Quantity": 0.5,
+			"Units": "Kilograms",
+			"Count": 1
+			
+		}
+	],
+	"RequiredTool": "GEAR_Knife",
+	"OptionalTools": ["GEAR_KnifeImprovised"],
+	"RequiredCraftingLocation": "Anywhere",
+	"RequiresLight": true,
+	"CraftedResult": "GEAR_RabbitRiverSallad",
+	"CraftedResultCount": 1,
+	"DurationMinutes": 25,
+	"CraftingAudio": "Play_CraftingBurdockPrepared",
+	"AppliedSkill": "Cooking",
+	"ImprovedSkill": "Cooking"
+}
