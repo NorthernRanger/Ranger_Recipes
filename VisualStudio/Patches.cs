@@ -38,13 +38,28 @@ namespace Ranger_Recipes
         [HarmonyPatch(typeof(CookingPotItem), "StartInspectMode")] //When inspecting an item that is cooking
         private static class DiscardStews
         {
-            private static void Prefix(ref CookingPotItem __instance)
+            private static void Prefix(CookingPotItem __instance)
             {
-                if(__instance.m_GearItemBeingCooked.DisplayName.Contains("Stew"))
+                MelonLogger.Warning("IsCookingSomething: " + __instance.IsCookingSomething());
+                if (__instance.IsCookingSomething() && __instance.m_GearItemBeingCooked != null) //m_GearItemBeingCooked is null if there is water in the pot
                 {
-                    __instance.m_GearItemBeingCooked.m_Cookable.m_CanBePickedUpWhileCooking = false; //Disables the option to pickup a stew that is not done cooking
+                    MelonLogger.Warning("Being Cooked: " + __instance.m_GearItemBeingCooked);
+                    if (__instance.m_GearItemBeingCooked.DisplayName.Contains("Stew"))
+                    {
+                        __instance.m_GearItemBeingCooked.m_Cookable.m_CanBePickedUpWhileCooking = false; //Disables the option to pickup a stew that is not done cooking
+                    }
                 }
             }
+        }
+    }
+
+    //In progress...
+    internal static class CookingCrafting
+    {
+        [HarmonyPatch(typeof(Panel_Crafting), "OnCraftingSuccess")]
+        private static class CookingXP
+        {
+            //private static void Postfix(ref )
         }
     }
 }
